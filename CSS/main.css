@@ -277,9 +277,49 @@ h2{
     padding: 0 0;
     margin: 0 0;
 }
+.Main_section_2_ofertas{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    row-gap: 1rem;
+}
 
+.Main_section_2_oferta1{
 
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 3fr 6fr;
 
+}
+
+.Main_section_2_oferta1{
+
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+
+}
+
+.Main_section_2_oferta1{
+
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+
+}
+/*//////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
 /*FOOTERS*/
 .footer_sections{
     height: 10rem;
