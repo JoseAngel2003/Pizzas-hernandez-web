@@ -303,6 +303,7 @@ h2{
     padding: 0;
     display: grid;
     grid-template-columns: 3fr 6fr;
+    grid-template-rows: 1fr 1fr 1fr;
 
 }
 
