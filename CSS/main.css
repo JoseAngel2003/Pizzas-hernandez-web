@@ -1045,14 +1045,46 @@ h3.footer_credits{
 .Main_section_2_oferta3{
     height: 12rem;
 }*/
+.Main_section_2{
+    background-image: url(../imagenes/Pizza-mex.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 93rem;
+    width: 100%;
+    padding: 0 0;
+    margin: 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Main_section_2_ofertas{
+    display: grid;
+    grid-auto-flow: row;
+    width: 90%;
+    grid-gap: 1rem;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    grid-template-rows: 22rem 22rem 22rem 22rem;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: center;
+}
+
 .Main_section_2_oferta1{
     background-color: rgba(102, 102, 102);
     border-radius: 1rem;
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-rows: 1fr 4fr;
-
+    grid-auto-flow: column;
+    grid-template-columns:100%;
+    grid-template-rows: 1fr 5fr;
+    align-content: center;
+    justify-content: center;
 }
 
 .Main_section_2_oferta2{
@@ -1062,18 +1094,25 @@ h3.footer_credits{
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-auto-flow: column;
+    grid-template-columns:100%;
+    grid-template-rows: 1fr 5fr;
+    align-content: center;
+    justify-content: center;
 
 }
 
 .Main_section_2_oferta3{
-
     background-color: rgba(102, 102, 102);
     border-radius: 1rem;
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-auto-flow: column;
+    grid-template-columns:100%;
+    grid-template-rows: 1fr 5fr;
+    align-content: center;
+    justify-content: center;
 }
 .Main_section_2_oferta4{
 
@@ -1083,34 +1122,52 @@ h3.footer_credits{
     padding: 0;
     display: grid;
     grid-auto-flow: column;
-    grid-template-rows: 1fr 4fr;
+    grid-template-columns:100%;
+    grid-template-rows: 1fr 5fr;
+    align-content: center;
+    justify-content: center;
 }
 
-img.pizza_oferta1{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+p.Main_section_2_oferta_imagen{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
     padding: 0 0;
     margin: 0 0;
+}
+
+
+img.pizza_oferta1{
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+
+    height: 8rem;
+    width: auto;
+    padding: 0 auto;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
 
 }
 
 h2.pizza_oferta1_titulo{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: rgb(255, 255, 255);
-    -webkit-text-stroke: .08rem rgb(0, 0, 0);
+    -webkit-text-stroke: .07rem rgb(0, 0, 0);
   
 
 }
 
 h1.pizza_oferta_precio{
     color: rgb(245, 62, 62);
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin: 0 0;
     padding: 0 0;
     color: rgb(230, 96, 34);
-    -webkit-text-stroke: .19rem rgb(0, 0, 0);
+    -webkit-text-stroke: .10rem rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
