@@ -1152,12 +1152,12 @@ img.pizza_oferta1{
 }
 
 h2.pizza_oferta1_titulo{
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-size: 1.75rem;
     color: rgb(255, 255, 255);
     -webkit-text-stroke: .07rem rgb(0, 0, 0);
-  
-
 }
 
 h1.pizza_oferta_precio{
