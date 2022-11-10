@@ -1157,7 +1157,7 @@ img.pizza_oferta1{
 
 h2.pizza_oferta1_titulo{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     color: rgb(255, 255, 255);
     -webkit-text-stroke: .07rem rgb(0, 0, 0);
     padding: 0;
@@ -1168,6 +1168,7 @@ h2.pizza_oferta1_titulo{
 h1.pizza_oferta_precio{
     color: rgb(245, 62, 62);
     font-size: 2.3rem;
+    letter-spacing: 2px;
     margin: 0 0;
     padding: 0 0;
     text-align: center;
