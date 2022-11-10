@@ -1049,7 +1049,7 @@ h3.footer_credits{
     background-image: url(../imagenes/Pizza-mex.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 97rem;
+    height: 93rem;
     width: 100%;
     padding: 0 0;
     margin: 0 0;
@@ -1068,10 +1068,11 @@ h3.footer_credits{
     justify-items: center;
     margin: 0 auto;
     margin-top: 2rem;
-    grid-template-rows: 23rem 23rem 23rem 23rem;
+    grid-template-rows: 22rem 22rem 22rem 22rem;
     box-sizing: border-box;
     align-content: center;
     justify-content: center;
+    
 }
 
 .Main_section_2_oferta1{
@@ -1085,6 +1086,7 @@ h3.footer_credits{
     grid-template-rows: 1fr 5fr;
     align-content: center;
     justify-content: center;
+    text-align: center;
 }
 
 .Main_section_2_oferta2{
@@ -1099,7 +1101,7 @@ h3.footer_credits{
     grid-template-rows: 1fr 5fr;
     align-content: center;
     justify-content: center;
-
+    text-align: center;
 }
 
 .Main_section_2_oferta3{
@@ -1113,6 +1115,7 @@ h3.footer_credits{
     grid-template-rows: 1fr 5fr;
     align-content: center;
     justify-content: center;
+    text-align: center;
 }
 .Main_section_2_oferta4{
 
@@ -1126,6 +1129,7 @@ h3.footer_credits{
     grid-template-rows: 1fr 5fr;
     align-content: center;
     justify-content: center;
+    text-align: center;
 }
 
 p.Main_section_2_oferta_imagen{
@@ -1152,12 +1156,13 @@ img.pizza_oferta1{
 }
 
 h2.pizza_oferta1_titulo{
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    font-size: 1.55rem;
+    font-size: 1.75rem;
     color: rgb(255, 255, 255);
     -webkit-text-stroke: .07rem rgb(0, 0, 0);
+    padding: 0;
+    margin: 0; 
+
 }
 
 h1.pizza_oferta_precio{
@@ -1165,6 +1170,7 @@ h1.pizza_oferta_precio{
     font-size: 2.3rem;
     margin: 0 0;
     padding: 0 0;
+    text-align: center;
     color: rgb(230, 96, 34);
     -webkit-text-stroke: .10rem rgb(0, 0, 0);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -1176,7 +1182,7 @@ p.pizza_oferta1_texto{
     padding: 0 0;
     margin: 0 0;
     font-weight: 200;
-    font-size: .75rem;
+    font-size: .8rem;
     color: white;
     font-family: cursive;
 }
