@@ -1160,7 +1160,7 @@ h2.pizza_oferta1_titulo{
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
     -webkit-text-stroke: .07rem rgb(0, 0, 0);
-    padding: 0 .2rem ;
+    padding: 0;
     margin: 0; 
 
 }
@@ -1185,6 +1185,7 @@ p.pizza_oferta1_texto{
     font-size: .8rem;
     color: white;
     font-family: cursive;
+    padding: 0 1% ;
 }
 
  
