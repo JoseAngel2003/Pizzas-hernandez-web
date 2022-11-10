@@ -270,10 +270,11 @@ h2{
 }
 
 .Main_section_2{
-    background-image: url(../imagenes/Pizza-mex.png);
+    box-sizing: border-box;
+    background-image: url(../imagenes/pizza-peperoni-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 52rem;
+    height:fit-content;
     width: 100%;
     padding: 0 0;
     margin: 0 0;
@@ -282,6 +283,7 @@ h2{
 }
 
 .Main_section_2_ofertas{
+    position:static;
     display: grid;
     grid-auto-flow: row;
     width: 90%;
@@ -289,8 +291,9 @@ h2{
     justify-content: center;
     justify-items: center;
     margin: 0 auto;
-    margin-top: 2rem;
-    grid-template-rows: 22% 22% 22% 22%;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    grid-template-rows: calc(1fr 1fr 1fr 1fr);
 }
 
 /*.Main_section_2_ofertas{
