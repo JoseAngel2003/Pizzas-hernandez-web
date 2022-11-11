@@ -889,8 +889,7 @@ h3.footer_credits{
         margin: 0 0;
         padding: 0 0;
         display: grid;
-        grid-template-columns: 1fr 3fr;
-        grid-template-rows: 7rem 3rem;
+        grid-template-columns: 1fr 9fr 3fr;       
 
         overflow-y: hidden;
     }
@@ -926,7 +925,7 @@ h3.footer_credits{
     
     a.Principal_link:hover{
         
-        font-size: 2.8rem;
+        font-size: 111%;
         transform: translateY(50%);
         transition: all 2s ease;
         background-color: transparent;
@@ -941,9 +940,15 @@ h3.footer_credits{
     }
     .Phone_number_title{
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
-    
+
+    a.Phone_number__title_link{
+        font-size: 3rem;
+    }
+    a.Phone_number__title_link:hover{
+        font-size: 3.5rem;
+    }
     .Cabezera__nav{
         background-color: rgb(145, 14, 5);
     }
