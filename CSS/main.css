@@ -932,7 +932,16 @@ h3.footer_credits{
         background-color: transparent;
     
     }
-
+    .Phone_number_title{
+        font-size: 1.9rem;
+        font-weight: 400;
+        margin: auto 1rem;
+        padding: auto 1rem;
+        -webkit-text-stroke: .15rem rgb(182, 3, 3);
+        color: black; 
+        text-align: justify;
+    }
+    
     .Phone_numbers{
         padding-top: .8rem;
         margin: 1rem 0rem .2rem 0rem;
