@@ -1,5 +1,13 @@
+:root{
+    --kanitfuente: 'Kanit', sans-serif;
+}
+
 html{
-    box-sizing: content-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:after, *:before{
+    box-sizing: inherit;
 }
 
 
@@ -11,7 +19,7 @@ html{
         border-image-width: auto;
         background-repeat: no-repeat;
         background-attachment: fixed;
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: oblique;
     margin: 0 0;
@@ -54,7 +62,7 @@ a:hover{
 
 a:visited{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 1rem;
+    font-weight: 2rem;
     font-style: oblique;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -66,7 +74,7 @@ a:visited{
 
 a.Principal_link:hover{
     
-    font-size: 5rem;
+    font-size: 9rem;
     transform: translateY(30%);
     transition: all 2s ease;
     background-color: transparent;
@@ -113,7 +121,7 @@ a.Principal_link:visited{
 }
 
 .Phone_number_title{
-    font-size: 1.9rem;
+    font-size: 4.9rem;
     font-weight: 400;
     margin: auto 1rem;
     padding: auto 1rem;
@@ -125,7 +133,7 @@ a.Principal_link:visited{
 
 a.Phone_number__title_link:hover{
     background-color: transparent;
-    font-size: 1.9rem;
+    font-size: 4.2rem;
     font-weight: 400;
     margin: auto 1rem;
     padding: auto 1rem;
@@ -138,7 +146,7 @@ a.Phone_number__title_link:hover{
 
 a.Phone_number__title_link{
     background-color: transparent;
-    font-size: 1.9rem;
+    font-size: 3.9rem;
     font-weight: 400;
     margin: auto 1rem;
     padding: auto 1rem;
@@ -165,6 +173,7 @@ body{
     text-align: center;
     align-content: center;
     margin: 0 0;
+    font-size: 2rem;
     
 }
 
@@ -181,11 +190,14 @@ h2{
     margin: 0% 0%;
 }
 
+
+
+
 .Main_section{
     background-image: url("../imagenes/pizza.jpg");
     background-size: cover;
     width: 100%;
-    height: 40rem;
+    height: 60rem;
     margin: 0 auto;
     padding-top: 0%;
     position: relative;
@@ -202,8 +214,8 @@ h2{
 
 h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 7rem;
-    text-shadow: 2rem;
+    font-size: 9rem;
+    text-shadow: 4rem;
     color: aliceblue;
     padding: 1rem .3rem 0rem 2rem;
 }
@@ -263,7 +275,7 @@ h2{
     text-align: justify;
     margin: 0 auto;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     opacity: 100%;
@@ -361,12 +373,18 @@ img.pizza_oferta1{
     width: 100%;
     padding: 0 0;
     margin: 0 0;
+    border-radius: 1rem 0rem 0rem 1rem ;
+}
 
+.Main_section_2_oferta_imagen{
+    padding: 0;
+    margin: 0;
+    border-radius: 1rem 0rem 0rem 1rem ;
 }
 
 h2.pizza_oferta1_titulo{
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: rgb(255, 255, 255);
     -webkit-text-stroke: .12rem rgb(0, 0, 0);
   
@@ -375,7 +393,7 @@ h2.pizza_oferta1_titulo{
 
 h1.pizza_oferta_precio{
     color: rgb(245, 62, 62);
-    font-size: 5rem;
+    font-size: 5.5rem;
     margin: 0 0;
     padding: 0 0;
     color: rgb(230, 96, 34);
@@ -387,10 +405,11 @@ p.pizza_oferta1_texto{
     text-align: center;
     padding: 0 0;
     margin: 0 0;
-    font-weight: 200;
-    font-size: 1rem;
-    color: black;
-    font-family: cursive;
+    font-weight: 100;
+    font-size: 1.7rem;
+    color: rgb(255, 255, 255);
+    font-family: var(--kanitfuente);
+    letter-spacing: 10%;
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////////
@@ -399,7 +418,7 @@ p.pizza_oferta1_texto{
 /////////////////////////////////////////////////////////////////////////////////////////
 /*FOOTERS*/
 .footer_sections{
-    height: 10rem;
+    height: fit-content;
     width: 100%;
     background-color: rgb(219, 112, 11);
     display: grid;
@@ -409,7 +428,7 @@ p.pizza_oferta1_texto{
 }
 
 .footer_horarios{
-    font-size: 1.7rem;
+    font-size: 2.3rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     display: inline;
@@ -423,7 +442,7 @@ p.pizza_oferta1_texto{
 }
 
 h2.footer_horarios_title{
-    font-size: 1.5rem;
+    font-size: 2.6rem;
     font-weight: 200;
     color: white;
     margin: 0 0;
@@ -444,7 +463,7 @@ h2.footer_horarios_title{
     box-sizing: border-box;
     padding: 0 0;
     margin: 0 0;
-    font-size: 2rem;
+    font-size: 2.6rem;
     font-weight: 200;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -457,7 +476,7 @@ h2.footer_social_title{
     margin: 0 0;
     grid-column: 1/4;
     grid-row: 1/2;
-    font-size: 2rem;
+    font-size: 2.6rem;
     font-weight: 200;
     text-align: center;
     color: white;
@@ -483,11 +502,12 @@ a.link_footer{
 a.link_footer:hover{
     background-color: transparent;
     cursor: pointer;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     transition: font-size .5s ;
 }
 a.link_nav_footer{
     text-align: center;
+    font-size: 1.6rem;
 }
 
 a.link_nav_footer:hover{
@@ -509,7 +529,7 @@ a.link_nav_footer:hover{
 h3.footer_menu_title{
     padding: 0 0;
     margin: 0 0;
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     font-weight: 100;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
@@ -523,12 +543,14 @@ a.link_nav_footer{
 
 .footer_data{
     display: block;
+    padding: 0;
+    margin: 0;
     height: 1fr 4fr;
 }
 
 h3.footer_data_title{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.2rem;
+    font-size: 2.6rem;
     font-weight: 100;
     color: white;
     align-self: center;
@@ -539,30 +561,27 @@ h3.footer_data_title{
 }
 
 p.footer_data_text{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1rem;
+    font-family: var(--kanitfuente);
+    font-size: 1.8rem;
     color: white;
     align-self: center;
     justify-self: center;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 h3.footer_credits{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: var(--kanitfuente);
     font-style: oblique;
     font-weight: 100;
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
     color: wheat;
     margin: 2rem rem 2rem 2rem 2rem;
     margin: 2rem rem 2rem 2rem 2rem;
 
 }
-
-
-
-
-
 /******************************************/
 /*****************************************/
 /******************************************/
@@ -573,9 +592,9 @@ h3.footer_credits{
 /*****************************************/
 /******************************************/
 @media only screen and (min-width:601px) and (max-width:900px){
- .Main_section{
-    height: 50rem;
- }   
+    .Main_section{
+        height: 70rem;
+     }   
  .h1{
     font-size: 3rem;
  }
@@ -584,20 +603,59 @@ h3.footer_credits{
     grid-template-columns: 1fr 5fr 4fr;
 }
 
-a.Principal_link:hover{
-        
-    font-size: 5rem;
-    transform: translateY(60%);
-    transition: all 2s ease;
-    background-color: transparent;
-
+a.Principal_link:link{
+    font-size: 4rem;
+    
+}
+.Principal_link{
+    font-size: 4rem;
+    
+}
+a.Principal_link::after{
+    font-size: 4rem;
+    
 }
 
+a.Principal_link:hover{
+    font-size: 4.5rem;
+    transform: translateY(80%);
+    transition: all 1s ease;
+    background-color: transparent;
+}
+
+
+.contenedor{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 0 0;
+    font-size: 2rem;
+    
+}
+
+a.Phone_number__title_link{
+    font-size: 68%;
+   
+    
+}
+a.Phone_number__title_link:hover{
+    font-size: 65%;
+}
+.Phone_number_title{
+   margin: 0 0;
+   padding: 0 0;
+}
+
+h3.Phone_number_title{
+    margin: 0 0;
+    padding: 0 0;
+}
 
 /*//////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////*/
 .footer_sections{
-    height: 10rem;
+    height: fit-content;
     width: 100%;
     background-color: rgb(219, 112, 11);
     display: grid;
@@ -607,7 +665,7 @@ a.Principal_link:hover{
 }
 
 .footer_horarios{
-    font-size: 1rem;
+    font-size: 2rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     display: inline;
@@ -621,7 +679,7 @@ a.Principal_link:hover{
 }
 
 h2.footer_horarios_title{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 200;
     color: white;
     margin: 0 0;
@@ -642,7 +700,7 @@ h2.footer_horarios_title{
     box-sizing: border-box;
     padding: 0 0;
     margin: 0 0;
-    font-size:1.32rem;
+    font-size:2.32rem;
     font-weight: 200;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -655,7 +713,7 @@ h2.footer_social_title{
     margin: 0 0;
     grid-column: 1/4;
     grid-row: 1/2;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     font-weight: 200;
     text-align: center;
     color: white;
@@ -671,7 +729,7 @@ h2.footer_social_title{
 img.footer_img_fb{
     margin: 0 0;
     padding:0 0 ;
-    height: 6rem;
+    height: 7rem;
     align-self: center;
     justify-self: center;
 }
@@ -687,7 +745,7 @@ a.link_footer{
 a.link_footer:hover{
     background-color: transparent;
     cursor: pointer;
-    font-size: 1.42rem;
+    font-size: 2.42rem;
     transition: font-size .5s ;
     padding-right: 5px;
 }
@@ -714,7 +772,7 @@ a.link_nav_footer:hover{
 h3.footer_menu_title{
     padding: 0 0;
     margin: 0 0;
-    font-size: 1.1rem;
+    font-size: 2.1rem;
     font-weight: 100;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
@@ -722,13 +780,7 @@ h3.footer_menu_title{
 }
 
 a.link_nav_footer{
-    margin: .02rem 0;
-    padding: .02rem 0;
-    font-size: 1rem;
-}
-
-a.link_nav_footer{
-    font-size: .95rem;
+    font-size: 1.5rem;
     margin: .02rem 0;
     padding: .02rem 0;
 }
@@ -740,7 +792,7 @@ a.link_nav_footer{
 
 h3.footer_data_title{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1rem;
+    font-size: 2.1rem;
     font-weight: 100;
     color: white;
     align-self: center;
@@ -752,7 +804,7 @@ h3.footer_data_title{
 
 p.footer_data_text{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: .9rem;
+    font-size: 1.2rem;
     color: white;
     font-weight: 40;
     align-self: justify;
@@ -765,7 +817,7 @@ h3.footer_credits{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: .85rem;
+    font-size: 1.2rem;
     text-align: center;
     color: wheat;
     margin: .3rem;
@@ -821,7 +873,7 @@ h3.footer_credits{
 
     
     .titulo{    
-        height: 13.5rem;
+        height: 20rem;
         background-image: url(../imagenes/pizza-bg-1.jpg);
         background-color: rgb(50,50,50);
             background-blend-mode:darken;
@@ -848,7 +900,7 @@ h3.footer_credits{
     }
     
     h1{
-        font-size: 2.3rem;
+        font-size: 220%;
         text-align: center;
         color: azure;
         letter-spacing: .5rem;
@@ -858,6 +910,7 @@ h3.footer_credits{
         color: black; 
     
     }
+
     a{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-weight: 1rem;
@@ -873,7 +926,7 @@ h3.footer_credits{
     
     a.Principal_link:hover{
         
-        font-size: 2.8rem;
+        font-size: 110%;
         transform: translateY(50%);
         transition: all 2s ease;
         background-color: transparent;
@@ -881,7 +934,7 @@ h3.footer_credits{
     }
 
     .Phone_numbers{
-        padding-top: .3rem;
+        padding-top: .8rem;
         margin: 1rem 0rem .2rem 0rem;
         grid-column: 1/3;
         text-align: center;
@@ -900,7 +953,7 @@ h3.footer_credits{
         text-align: center;
         align-content: center;
         margin: 0 0;
-        
+        font-size: 1.5rem;
     }
     
     .Cabezera__menunavegacion{
@@ -1047,12 +1100,15 @@ h3.footer_credits{
 .Main_section_2_oferta2,
 .Main_section_2_oferta3{
     height: 12rem;
-}*/
+}*
+
+
 .Main_section_2{
-    background-image: url(../imagenes/Pizza-mex.png);
+    box-sizing: border-box;
+    background-image: url(../imagenes/pizza-peperoni-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 93rem;
+    height:fit-content;
     width: 100%;
     padding: 0 0;
     margin: 0 0;
@@ -1060,9 +1116,8 @@ h3.footer_credits{
     align-items: center;
 }
 
-
-
 .Main_section_2_ofertas{
+    position:static;
     display: grid;
     grid-auto-flow: row;
     width: 90%;
@@ -1070,26 +1125,35 @@ h3.footer_credits{
     justify-content: center;
     justify-items: center;
     margin: 0 auto;
-    margin-top: 2rem;
-    grid-template-rows: 22rem 22rem 22rem 22rem;
-    box-sizing: border-box;
-    align-content: center;
-    justify-content: center;
-    
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    grid-template-rows: calc(1fr 1fr 1fr 1fr);
 }
 
+/*.Main_section_2_ofertas{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    row-gap: 1rem;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+ 
+}
+.Main_section_2_oferta1,
+.Main_section_2_oferta2,
+.Main_section_2_oferta3{
+    height: 12rem;
+}*/
 .Main_section_2_oferta1{
     background-color: rgba(102, 102, 102);
     border-radius: 1rem;
     margin: 0;
     padding: 0;
     display: grid;
-    grid-auto-flow: column;
-    grid-template-columns:100%;
-    grid-template-rows: 1fr 5fr;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
+    grid-template-columns: 1fr 6fr;
+
 }
 
 .Main_section_2_oferta2{
@@ -1099,26 +1163,20 @@ h3.footer_credits{
     margin: 0;
     padding: 0;
     display: grid;
-    grid-auto-flow: column;
-    grid-template-columns:100%;
-    grid-template-rows: 1fr 5fr;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
+    grid-template-columns: 1fr 6fr;
+
+
 }
 
 .Main_section_2_oferta3{
+
     background-color: rgba(102, 102, 102);
     border-radius: 1rem;
     margin: 0;
     padding: 0;
     display: grid;
-    grid-auto-flow: column;
-    grid-template-columns:100%;
-    grid-template-rows: 1fr 5fr;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
+    grid-template-columns: 1fr 6fr;
+
 }
 .Main_section_2_oferta4{
 
@@ -1127,57 +1185,41 @@ h3.footer_credits{
     margin: 0;
     padding: 0;
     display: grid;
-    grid-auto-flow: column;
-    grid-template-columns:100%;
-    grid-template-rows: 1fr 5fr;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-}
+    grid-template-columns: 1fr 6fr;
 
-p.Main_section_2_oferta_imagen{
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 0;
-    margin: 0 0;
 }
-
 
 img.pizza_oferta1{
-    justify-self: center;
-    justify-items: center;
-    justify-content: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding: 0 0;
+    margin: 0 0;
+    border-radius: 1rem 0rem 0rem 1rem ;
+}
 
-    height: 8rem;
-    width: auto;
-    padding: 0 auto;
-    margin: 0 auto;
-    align-content: center;
-    justify-content: center;
-
+.Main_section_2_oferta_imagen{
+    padding: 0;
+    margin: 0;
+    border-radius: 1rem 0rem 0rem 1rem ;
 }
 
 h2.pizza_oferta1_titulo{
     text-align: center;
-    font-size: 1.35rem;
+    font-size: 2.2rem;
     color: rgb(255, 255, 255);
-    -webkit-text-stroke: .07rem rgb(0, 0, 0);
-    padding: 0;
-    margin: 0; 
+    -webkit-text-stroke: .12rem rgb(0, 0, 0);
+  
 
 }
 
 h1.pizza_oferta_precio{
     color: rgb(245, 62, 62);
-    font-size: 2.3rem;
-    letter-spacing: 2px;
+    font-size: 3.5rem;
     margin: 0 0;
     padding: 0 0;
-    text-align: center;
     color: rgb(230, 96, 34);
-    -webkit-text-stroke: .10rem rgb(0, 0, 0);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: .22rem rgb(0, 0, 0);
 
 }
 
@@ -1185,15 +1227,13 @@ p.pizza_oferta1_texto{
     text-align: center;
     padding: 0 0;
     margin: 0 0;
-    font-weight: 200;
-    font-size: .8rem;
-    color: white;
-    font-family: cursive;
-    padding: 0 1% ;
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    font-family: var(--kanitfuente);
+    letter-spacing: 10%;
 }
 
- 
-    
  /**-/////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////*/
 
