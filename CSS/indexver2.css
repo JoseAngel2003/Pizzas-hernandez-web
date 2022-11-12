@@ -590,241 +590,8 @@ h3.footer_credits{
 /******************************************/
 /*****************************************/
 /******************************************/
-@media only screen and (min-width:601px) and (max-width:900px){
-    .Main_section{
-        height: 70rem;
-     }   
- .h1{
-    font-size: 3rem;
- }
-
-.titulo{
-    grid-template-columns: 1fr 5fr 4fr;
-}
-
-a.Principal_link:link{
-    font-size: 4rem;
-    
-}
-.Principal_link{
-    font-size: 4rem;
-    
-}
-a.Principal_link::after{
-    font-size: 4rem;
-    
-}
-
-a.Principal_link:hover{
-    font-size: 4.5rem;
-    transform: translateY(80%);
-    transition: all 1s ease;
-    background-color: transparent;
-}
 
 
-.contenedor{
-    margin: 0 auto;
-    justify-content: center;
-    text-align: center;
-    align-content: center;
-    margin: 0 0;
-    font-size: 2rem;
-    
-}
-
-a.Phone_number__title_link{
-    font-size: 68%;
-   
-    
-}
-a.Phone_number__title_link:hover{
-    font-size: 65%;
-}
-.Phone_number_title{
-   margin: 0 0;
-   padding: 0 0;
-}
-
-h3.Phone_number_title{
-    margin: 0 0;
-    padding: 0 0;
-}
-
-/*//////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////*/
-.footer_sections{
-    height: fit-content;
-    width: 100%;
-    background-color: rgb(219, 112, 11);
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
-    box-sizing: border-box;
-    gap: 0;
-}
-
-.footer_horarios{
-    font-size: 2rem;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: flex;
-    display: inline;
-    color: white;
-    font-weight: 100;
-    align-self: center;
-    justify-self: center;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
-h2.footer_horarios_title{
-    font-size: 2.5rem;
-    font-weight: 200;
-    color: white;
-    margin: 0 0;
-    padding: 0 0;
-    align-self: center;
-    justify-self: center;
-    text-align: center;
-}
-
-.footer_social{
-    display: grid;
-    grid-template-columns: 58% 38%;
-    grid-template-rows: 20% 77%;
-    grid-gap: 1%;
-    height: auto;
-}
-.footer_social_link{
-    box-sizing: border-box;
-    padding: 0 0;
-    margin: 0 0;
-    font-size:2.32rem;
-    font-weight: 200;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    align-self: center;
-    justify-self: center;
-}
-h2.footer_social_title{
-    padding: 0 0;
-    margin: 0 0;
-    grid-column: 1/4;
-    grid-row: 1/2;
-    font-size: 2.2rem;
-    font-weight: 200;
-    text-align: center;
-    color: white;
-    align-self: center;
-    justify-self: center;
-}
-.footer_social_fb{
-    margin: 0 0;
-    padding: 0 0;
-    align-self: center;
-    justify-self: center;
-}
-img.footer_img_fb{
-    margin: 0 0;
-    padding:0 0 ;
-    height: 7rem;
-    align-self: center;
-    justify-self: center;
-}
-a.link_footer{
-    background-color: none;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 100;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}
-a.link_footer:hover{
-    background-color: transparent;
-    cursor: pointer;
-    font-size: 2.42rem;
-    transition: font-size .5s ;
-    padding-right: 5px;
-}
-a.link_nav_footer{
-    text-align: center;
-}
-
-a.link_nav_footer:hover{
-    background-color: transparent;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 100;
-}
-
-.footer_menu{
-    display:flex;
-    flex-direction: column;
-    padding: 0 0;
-    margin: 0 0;
-    height: 1fr 1fr 1fr 1fr 1fr 1fr;
-
-}
-
-h3.footer_menu_title{
-    padding: 0 0;
-    margin: 0 0;
-    font-size: 2.1rem;
-    font-weight: 100;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    text-align: center;
-}
-
-a.link_nav_footer{
-    font-size: 1.5rem;
-    margin: .02rem 0;
-    padding: .02rem 0;
-}
-
-.footer_data{
-    display: block;
-    height: 1fr 4fr;
-}
-
-h3.footer_data_title{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2.1rem;
-    font-weight: 100;
-    color: white;
-    align-self: center;
-    justify-self: center;
-    text-align: center;
-    padding: 0 0;
-    margin: 0 0;
-}
-
-p.footer_data_text{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.2rem;
-    color: white;
-    font-weight: 40;
-    align-self: justify;
-    justify-self: center;
-    text-align: center;
-
-}
-
-h3.footer_credits{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.2rem;
-    text-align: center;
-    color: wheat;
-    margin: .3rem;
-
-}
-
-
-}
 
 
 
@@ -849,13 +616,48 @@ h3.footer_credits{
 
 
 
+@media only screen and (min-width:718px) and (max-width:1190px){
+
+    .titulo{
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr 9fr;
+        grid-row: 3fr 2fr;
+    }
+
+    h3.Phone_number_title{
+        font-size: 2vw;
+        text-align: center;
+        padding: 0 0;
+        margin: 0 0;
+    }
+    .Phone_numbers{
+        font-size: 2vw;
+        grid-row: 2/3;
+        grid-column: 1/4;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-flow: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    a.Phone_number__title_link:link{
+        font-size: 3.5vw;
+    }
+    a.Phone_number__title_link:hover{
+        font-size: 3.68vw;
+    }
+    a.Phone_number__title_link::before{
+        font-size: 3.5vw;
+    }
+}
 
 
 
 
 
-
-@media only screen and (max-width:600px){
+@media only screen and (max-width:540px){
         
     html{
         box-sizing: content-box;
