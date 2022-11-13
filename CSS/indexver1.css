@@ -590,7 +590,7 @@ h3.footer_credits{
 /******************************************/
 /*****************************************/
 /******************************************/
-@media only screen and (min-width:701px) and (max-width:900px){
+@media only screen and (min-width:601px) and (max-width:900px){
     .Main_section{
         height: 70rem;
      }   
@@ -599,39 +599,27 @@ h3.footer_credits{
  }
 
 .titulo{
-    grid-template-columns: 2fr 8fr;
-    grid-template-rows: 1fr fr;
-    font-size:9vw;
-}
-
-h1.titulo_caja_texto_principal{
-    color: blue;
-    font-size:10vw
+    grid-template-columns: 1fr 5fr 4fr;
 }
 
 a.Principal_link:link{
-    color: white;
-    font-size:9vw
+    font-size: 4rem;
     
 }
-a.Principal_link:visited{
-    font-size: 10vw;
-}
 .Principal_link{
-    font-size:10vw;
-    color: white;
+    font-size: 4rem;
+    
 }
 a.Principal_link::after{
-    font-size: 11vw;
-    color: white;
+    font-size: 4rem;
+    
 }
 
 a.Principal_link:hover{
-    font-size: 11vw;
+    font-size: 4.5rem;
     transform: translateY(80%);
     transition: all 1s ease;
     background-color: transparent;
-    color: white;
 }
 
 
@@ -644,16 +632,7 @@ a.Principal_link:hover{
     font-size: 2rem;
     
 }
-.Phone_numbers{
-    grid-column: 1/3;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-auto-flow: column;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-}
+
 a.Phone_number__title_link{
     font-size: 68%;
    
@@ -876,7 +855,7 @@ h3.footer_credits{
 
 
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:600px){
         
     html{
         box-sizing: content-box;
