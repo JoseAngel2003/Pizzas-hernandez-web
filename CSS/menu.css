@@ -11,6 +11,7 @@ html{
 }
 
 
+
 .titulo{    
     background-image: url(../imagenes/pizza-bg-1.jpg);
     background-color: rgb(50,50,50);
@@ -590,7 +591,7 @@ h3.footer_credits{
 /******************************************/
 /*****************************************/
 /******************************************/
-@media only screen and (min-width:701px) and (max-width:900px){
+@media only screen and (min-width:701px) and (max-width:1192px){
     .Main_section{
         height: 70rem;
      }   
@@ -894,7 +895,7 @@ h3.footer_credits{
     
  
     .titulo{    
-        height: 22.5rem;
+        height: fit-content;
         background-image: url(../imagenes/pizza-bg-1.jpg);
         background-color: rgb(50,50,50);
             background-blend-mode:darken;
@@ -917,6 +918,13 @@ h3.footer_credits{
     .titulo_img{
         margin: auto .2rem;
         padding: auto .2rem;
+    }
+
+    .titulo_caja_texto_principal{
+        grid-column: 2/4;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
     }
     
     h1{
@@ -942,8 +950,11 @@ h3.footer_credits{
         background-color: blue;
         transition: background-color .6s;
     }
-    .Principal_link{
-        columns: 2/4;
+    a.Principal_link::before{
+        font-size: 7vw;
+    }
+    a.Principal_link:link{
+        font-size: 11vw;
     }
     a.Principal_link:hover{
         
