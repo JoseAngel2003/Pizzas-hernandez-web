@@ -1337,7 +1337,7 @@ h2.footer_social_title{
     margin: 0 0;
     grid-column: 1/2;
     grid-row: 1/2;
-    font-size: 1.25rem;
+    font-size: 1.2vw;
     font-weight: 200;
     text-align: center;
     color: white;
