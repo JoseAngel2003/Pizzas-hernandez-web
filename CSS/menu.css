@@ -227,7 +227,7 @@ h2{
 
 .Main_content_menu{
     position: static;
-    width: 90%;
+    width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -236,7 +236,7 @@ h2{
     padding: 1vw auto;
 }
 .Main_menu_opcion{
-    background-color: blueviolet;
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 4fr 2fr;
@@ -248,7 +248,23 @@ h2{
     width: 100%;
     height: 100%;
 }
-
+.Main_menu_texto{
+    padding: 3vw 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.Main_menu_texto_titulo{
+    color: white;
+    font-size: 4vw;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
 h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 4vw;
