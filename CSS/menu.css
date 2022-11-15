@@ -241,6 +241,7 @@ h2{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 4fr 2fr;
+    
 }
 .Main_menu_img{
     object-fit: cover;
