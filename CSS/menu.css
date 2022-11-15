@@ -228,7 +228,6 @@ h2{
 .Main_content_menu{
     position: static;
     width: 90%;
-    background-color: rgba(255, 255, 255, 0.829);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
