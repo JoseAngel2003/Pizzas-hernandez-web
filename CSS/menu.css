@@ -236,12 +236,23 @@ h2{
     padding: 1vw auto;
 }
 .Main_menu_opcion{
+    margin: 1rem;
     background-color: black;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 4fr 2fr;
     border-radius: 2vw;
+    transition: all .5s;
 }
+.Main_menu_opcion:hover{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 2fr;
+    border-radius: 2vw;
+    transform: scale(1.12);
+}
+
 .Main_menu_img{
     object-fit: cover;
     border-radius: 1vw 1vw 0 0;
