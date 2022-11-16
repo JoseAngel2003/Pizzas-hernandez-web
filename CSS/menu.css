@@ -226,8 +226,9 @@ h2{
 }
 
 .Main_content_menu{
+    cursor: default;
     position: static;
-    width: 70%;
+    width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
