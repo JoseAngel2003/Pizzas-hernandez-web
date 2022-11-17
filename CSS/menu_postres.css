@@ -5,15 +5,8 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%;
-    
 }
-*a:active{
-    color: transparent;
-    background-color: transparent;
-}
-*a:focus{
-    background-color: transparent;
-}
+
 *, *:after, *:before{
     box-sizing: inherit;
 }
@@ -232,9 +225,7 @@ h2{
     justify-items: center;
     padding: 0 auto;
 }
-.Main_content:active{
-    color: transparent;
-}
+
 .Main_content_menu{
     grid-auto-flow: column;
     cursor: pointer;
@@ -258,9 +249,7 @@ a.Main_menu_link{
 }
 a.Main_menu_link:hover{
     background-color: transparent;
-}
-a.Main_menu_link:active{
-    background-color: transparent;
+   
 }
 .Main_menu_opcion{
 
@@ -282,9 +271,7 @@ a.Main_menu_link:active{
     border-radius: 2vw;
     transform: scale(1.12);
 }
-.Main_menu_opcion:active{
-    color: red;
-}
+
 .Main_menu_img{
     object-fit: cover;
     border-radius: 1vw 1vw 0 0;
@@ -403,20 +390,13 @@ h2{
     transform: scale(1.05);
     cursor: pointer;
 }
-.Main_content_repartidor:active{
-    color: transparent;
-    background-color: transparent;
-}
 a.Main_content_phone_number:link{
     background-color: transparent;
+
 }
 a.Main_content_phone_number:hover{
     background-color: transparent;
-    color: transparent;
-}
-a.Main_content_phone_number:active{
-    background-color: transparent;
-    color: transparent;
+  
 }
 
 
