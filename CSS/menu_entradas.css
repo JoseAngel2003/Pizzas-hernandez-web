@@ -302,6 +302,21 @@ a.Main_menu_link:hover{
     align-items: center;
     align-content: center;
 }
+.Direccion_box{
+    background-image: url("../imagenes/restaurante.png");
+    background-size: cover;
+    background-position: center;
+}
+p.Direccion{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.733);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+
+}
 h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 4vw;
@@ -1476,7 +1491,7 @@ p.pizza_oferta1_texto{
 }
 
 h2.footer_horarios_title{
-    font-size: 1.1rem;
+    font-size: 4vw;
     font-weight: 200;
     color: white;
     margin: 0 0;
@@ -1511,7 +1526,7 @@ h2.footer_social_title{
     margin: 0 0;
     grid-column: 1/2;
     grid-row: 1/2;
-    font-size: 1.2vw;
+    font-size: 3.2vw;
     font-weight: 200;
     text-align: center;
     color: white;
