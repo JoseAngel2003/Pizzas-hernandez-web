@@ -6,6 +6,9 @@ html{
     box-sizing: border-box;
     font-size: 62.5%;
 }
+*a:active{
+    color: transparent;
+}
 *, *:after, *:before{
     box-sizing: inherit;
 }
@@ -270,7 +273,9 @@ a.Main_menu_link:hover{
     border-radius: 2vw;
     transform: scale(1.12);
 }
-
+.Main_menu_opcion:active{
+    color: transparent;
+}
 .Main_menu_img{
     object-fit: cover;
     border-radius: 1vw 1vw 0 0;
@@ -388,6 +393,9 @@ h2{
     height: 100%;
     transform: scale(1.05);
     cursor: pointer;
+}
+.Main_content_repartidor:active{
+    color: transparent;
 }
 a.Main_content_phone_number:link{
     background-color: transparent;
