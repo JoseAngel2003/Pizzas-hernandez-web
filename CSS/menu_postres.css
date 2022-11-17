@@ -251,7 +251,9 @@ a.Main_menu_link{
 }
 a.Main_menu_link:hover{
     background-color: transparent;
-   
+}
+a.Main_menu_link:active{
+    background-color: transparent;
 }
 .Main_menu_opcion{
 
@@ -274,7 +276,7 @@ a.Main_menu_link:hover{
     transform: scale(1.12);
 }
 .Main_menu_opcion:active{
-    color: transparent;
+    color: red;
 }
 .Main_menu_img{
     object-fit: cover;
