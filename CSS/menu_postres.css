@@ -231,11 +231,14 @@ h2{
     width: 80%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10vw 10vw 10vw 10vw;
     grid-gap: 1.2vw;
     margin: .2vw auto;
     padding: .2vw auto;
 }
+
+
+
 a.Main_menu_link{
     padding: 0;
     margin: 0;
@@ -282,8 +285,9 @@ a.Main_menu_link:hover{
 }
 .Main_menu_texto_titulo{
     color: white;
-    font-size: 4vw;
+    font-size: 5vw;
     margin: 0;
+    font-family: fantasy;
     padding: 0;
     justify-content: center;
     justify-items: center;
