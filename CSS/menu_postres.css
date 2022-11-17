@@ -227,7 +227,9 @@ h2{
     justify-items: center;
     padding: 0 auto;
 }
-
+.Main_content:active{
+    color: transparent;
+}
 .Main_content_menu{
     grid-auto-flow: column;
     cursor: pointer;
