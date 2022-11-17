@@ -103,8 +103,14 @@ a.Principal_link:active{
     -webkit-text-stroke: .28rem rgb(182, 3, 3);
     color: black;   
     text-decoration: none;
- 
+    background-color: transparent;
 }
+
+a.Principal_link:focus{
+    background-color: transparent;
+}
+
+
 a.Principal_link:visited{
     text-align: center;
     color: azure;
