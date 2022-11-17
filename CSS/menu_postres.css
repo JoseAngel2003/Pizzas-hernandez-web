@@ -5,9 +5,14 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%;
+    
 }
 *a:active{
     color: transparent;
+    background-color: transparent;
+}
+*a:focus{
+    background-color: transparent;
 }
 *, *:after, *:before{
     box-sizing: inherit;
@@ -404,7 +409,6 @@ h2{
 }
 a.Main_content_phone_number:link{
     background-color: transparent;
-
 }
 a.Main_content_phone_number:hover{
     background-color: transparent;
