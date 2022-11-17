@@ -400,6 +400,7 @@ h2{
 }
 .Main_content_repartidor:active{
     color: transparent;
+    background-color: transparent;
 }
 a.Main_content_phone_number:link{
     background-color: transparent;
@@ -407,7 +408,11 @@ a.Main_content_phone_number:link{
 }
 a.Main_content_phone_number:hover{
     background-color: transparent;
-  
+    color: transparent;
+}
+a.Main_content_phone_number:active{
+    background-color: transparent;
+    color: transparent;
 }
 
 
