@@ -6,9 +6,11 @@ html{
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
 *, *:after, *:before{
     box-sizing: inherit;
 }
+
 
 
 .titulo{    
@@ -101,8 +103,14 @@ a.Principal_link:active{
     -webkit-text-stroke: .28rem rgb(182, 3, 3);
     color: black;   
     text-decoration: none;
- 
+    background-color: transparent;
 }
+
+a.Principal_link:focus{
+    background-color: transparent;
+}
+
+
 a.Principal_link:visited{
     text-align: center;
     color: azure;
@@ -225,16 +233,24 @@ h2{
 }
 
 .Main_content_menu{
+    grid-auto-flow: row;
     cursor: pointer;
     position: static;
-    width: 80%;
+    width: 90%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1.2vw;
     margin: .2vw auto;
     padding: .2vw auto;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
 }
+
+
+
 a.Main_menu_link{
     padding: 0;
     margin: 0;
@@ -246,8 +262,9 @@ a.Main_menu_link:hover{
    
 }
 .Main_menu_opcion{
-
+    justify-content: center;
     margin: .2vw;
+    padding: auto;
     width: 94%;
     height: 94%;
     background-color: black;
@@ -281,13 +298,29 @@ a.Main_menu_link:hover{
 }
 .Main_menu_texto_titulo{
     color: white;
-    font-size: 4vw;
+    font-size: 2vw;
     margin: 0;
+    font-family: fantasy;
     padding: 0;
     justify-content: center;
     justify-items: center;
     align-items: center;
     align-content: center;
+}
+.Direccion_box{
+    background-image: url("../imagenes/restaurante.png");
+    background-size: cover;
+    background-position: center;
+}
+p.Direccion{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.733);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+
 }
 h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -302,6 +335,7 @@ h2{
     text-align: left;  
     position: relative;
     animation: movex 3s forwards;
+    margin-bottom: 2.6vw;
 }
 
 @keyframes movex {
@@ -343,14 +377,15 @@ h2{
 }
 
 .Main_content_text{
-    background-color: rgb(0,0,0, 60%);
-    width: 90%;
+    background-color: rgb(0,0,0, 100%);
+    width: 100%;
     margin: 0 auto;
-    border-radius: 5%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
 .Simpletext{
     padding: 1rem 1rem;
-    width: 80%;
+    width: 95%;
     color: white;
     text-align: justify;
     margin: 0 auto;
@@ -359,7 +394,39 @@ h2{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     opacity: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
+.Main_content_repartidor{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.Main_content_repartidor::before{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease;
+}
+.Main_content_repartidor:hover{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+a.Main_content_phone_number:link{
+    background-color: transparent;
+
+}
+a.Main_content_phone_number:hover{
+    background-color: transparent;
+  
+}
+
+
 
 .Main_section_2{
     box-sizing: border-box;
@@ -490,6 +557,18 @@ p.pizza_oferta1_texto{
     color: rgb(255, 255, 255);
     font-family: var(--kanitfuente);
     letter-spacing: 10%;
+}
+
+.mapa{
+    grid-column: 2/4;
+    object-fit: cover;
+    width: 97%;
+    height: 94%;
+    border-radius: 5vw;
+}
+
+.mapa_map{
+    border-radius: 3vw;
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////////
@@ -748,6 +827,34 @@ h3.Phone_number_title{
     margin: 0 0;
     padding: 0 0;
 }
+.Main_content_menu{
+    grid-auto-flow: column;
+    cursor: pointer;
+    position: static;
+    width: 95%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1.2vw;
+    margin: .2vw auto;
+    padding: .2vw auto;
+}
+
+.mapa{
+    grid-column: 2/4;
+    object-fit: cover;
+    width: 97%;
+    height: 94%;
+    border-radius: 5vw;
+}
+
+.mapa_map{
+    border-radius: 3vw;
+}
+
+
+
 
 /*//////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////*/
@@ -1088,7 +1195,7 @@ h3.footer_credits{
         }
     
         100%{
-            transform: translate(3rem);
+            transform: translate(1vw);
             opacity: 100%;
         }
         
@@ -1118,23 +1225,104 @@ h3.footer_credits{
         }
         
     }
+    .Main_content_menu{
+        grid-auto-flow: row;
+        cursor: pointer;
+        position: static;
+        width: 90%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 1.2vw;
+        margin: .2vw auto;
+        padding: .2vw auto;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+
     .Main_content_text{
         background-color: rgb(0,0,0, 60%);
         width: 90%;
         margin: 0 auto;
         border-radius: 5%;
     }
+
+    .Main_menu_opcion{
+        margin: .2vw;
+        width: 100;
+        height: 94%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15vh 8vh;
+        border-radius: 2vw;
+        transition: all .5s ease;
+    }
+    .Main_menu_opcion:hover{
+        background-color: black;
+        display: grid;
+        border-radius: 5vh;
+        transform: scale(1.04);
+        margin: .2vw;
+        width: 100;
+        height: 94%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15vh 8vh;
+    }
+    
+  
+    .Main_menu_img{
+        object-fit: cover;
+        border-radius: 1vw 1vw 0 0;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit inherit 0 0;
+    }
+    .Main_menu_texto{
+        padding: 3vw 0;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+    .Main_menu_texto_titulo{
+        color: white;
+        font-size: 4vw;
+        margin: 0;
+        font-family:monospace;
+        padding: 0;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .Main_content_text{
+        width: 100%;
+        background-color: rgb(56, 4, 4);
+        border-radius: 0;
+    }
     .Simpletext{
         padding: 1rem 1rem;
-        width: 80%;
+        width: 90%;
         color: white;
         text-align: justify;
         margin: 0 auto;
         font-style: italic;
-        font-size: 1rem;
+        font-size: 3vw;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 400;
         opacity: 100%;
+    }
+
+    .mapa{
+        grid-column: 1/2;
+        grid-row: 8/9;
     }
 /*///////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////
@@ -1342,7 +1530,7 @@ p.pizza_oferta1_texto{
 }
 
 h2.footer_horarios_title{
-    font-size: 1.1rem;
+    font-size: 4vw;
     font-weight: 200;
     color: white;
     margin: 0 0;
@@ -1377,7 +1565,7 @@ h2.footer_social_title{
     margin: 0 0;
     grid-column: 1/2;
     grid-row: 1/2;
-    font-size: 1.2vw;
+    font-size: 3.2vw;
     font-weight: 200;
     text-align: center;
     color: white;
