@@ -1019,7 +1019,7 @@ h3.footer_credits{
         justify-items: center;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1.5fr 1.8fr;
+        grid-template-rows: 1.5fr 2.2fr;
         grid-auto-flow: row;
     }
 
