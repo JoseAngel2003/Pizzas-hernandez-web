@@ -200,71 +200,72 @@ h2{
 
 .Main_section{
     height: fit-content;
-    position: static;
-    }
+    background-image: url("../imagenes/Puerta_Pr.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .Main_section_box{
-    background-image: url("../imagenes/pizza-veg.jpg");
-    background-size: cover;
+    position: static;
+    height: 220vh;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 100%;
+    gap: 2vh;
+    padding: 0 2vh;
+    background-color: rgba(17, 16, 16, 0.418);
+    padding: 1vh;
+    box-sizing: border-box;
+}
+
+.Aviso_img_box{
+    background-color: rgb(33, 33, 44);
+    margin: 0;
+    height: 100%;
+
+}
+
+img.Imagen_aviso{
     width: 100%;
-    height: fit-content;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+.Main_content_side_L{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 12fr;
+}
+.Main_content_text{
+    background-color: rgb(0,0,0, 60%);
+    width: 95%;
+    height: inherit;
+    margin: 1rem;
+    padding: 1rem;
     margin: 0 auto;
-    padding-top: 0%;
-    position: static;
-    align-content: center;
-    overflow: hidden;
+    border-radius: 5%;
 }
-.Main_content{
-    background-color: rgba(0, 0, 0, 0.6);
-    position: static;
-    width: 100%;
-    height: fit-content;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    display: grid;
-    grid-template-columns: 2fr 2fr ;
-}
-
-
-.Aviso_box{
-    width: 90%;
-    height: fit-content;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 14fr;
-  
-}
-.aviso{
-     padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 95%;
- }
-
-
-
-
-.Main_menu_texto{
-    padding: 3vw 0;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    
-}
-.Main_menu_texto_titulo{
+.Simpletext{
+    padding: 1rem 1rem;
+    margin: 1rem;
     color: white;
-    font-size: 4vw;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
+    text-align: justify;
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    opacity: 100%;
 }
-
+.Main_content_face_link_center{
+    text-align: center;
+    width: 100%;
+}
 .Main_content_face{
+    padding: 0 auto;
     transition: all 2s ease;
     height: fit-content;
     padding: 2vh;
@@ -276,8 +277,8 @@ h2{
 }
 
 .Main_content_face_img{
-    width: 20vw;
-    height: 20vw;
+    width: 10vw;
+    height: auto;
 }
 
 
@@ -353,33 +354,6 @@ h2{
         opacity: 100%;
     }
     
-}
-.Main_content_side_L{
-    height: fit-content;
-    padding-bottom: 1vw;
-}
-.Main_content_text{
-    background-color: rgb(0,0,0, 60%);
-    width: 95%;
-    height: fit-content;
-    margin: 1rem;
-    padding: 1rem;
-    margin: 0 auto;
-    border-radius: 5%;
-}
-.Simpletext{
-    padding: 1rem 1rem;
-    margin: 1rem;
-    height: 90%;
-    width: 90%;
-    color: white;
-    text-align: justify;
-    margin: 0 auto;
-    font-style: italic;
-    font-size: 2vw;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    opacity: 100%;
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////////
@@ -639,6 +613,16 @@ h3.Phone_number_title{
     padding: 0 0;
 }
 
+.Main_content_side_L{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 15fr;
+}
+
+.Main_section_box{
+    height: 72vh;
+
+}
 /*//////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////*/
 .footer_sections{
@@ -965,7 +949,7 @@ h3.footer_credits{
     
    
     .izq_h2{
-        font-size: 7vw;
+        
         text-align: left;  
         position: relative;
         animation: movex 3s forwards;
@@ -978,7 +962,7 @@ h3.footer_credits{
         }
     
         100%{
-            transform: translate(2vw);
+            transform: translate(3rem);
             opacity: 100%;
         }
         
@@ -1009,40 +993,34 @@ h3.footer_credits{
         
     }
 
-    .Main_content{
-        background-color: rgba(0, 0, 0, 0.6);
-        position: static;
-        width: 100%;
-        height: fit-content;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 4fr;
-        grid-auto-flow: row;
-    }
 
-    .Main_content_text{
-        background-color: rgb(0,0,0, 60%);
-        width: 90%;
-        margin: 0 auto;
-        border-radius: 5%;
-    }
-    .Simpletext{
-        padding: 1rem 1rem;
-        width: 90%;
-        color: rgb(255, 255, 255);
-        text-align: justify;
-        margin: 0 auto;
-        font-style: italic;
-        font-size: 4vw;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-weight: 400;
-        opacity: 100%;
-    }
 
-    
+.Main_section_box{
+    position: static;
+    height: fit-content;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 4fr;
+    gap: 2vh;
+    padding: 0 2vh;
+    background-color: rgba(17, 16, 16, 0.418);
+    padding: 1vh;
+    box-sizing: border-box;
+}
+
+
+.Main_content_side_L{
+    height: fit-content;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+
+
+
+
+
 
  /**-/////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////*/
@@ -1059,7 +1037,7 @@ h3.footer_credits{
 }
 
 .footer_horarios{
-    font-size: 3.7vw;
+    font-size: .9rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     display: inline;
@@ -1073,7 +1051,7 @@ h3.footer_credits{
 }
 
 h2.footer_horarios_title{
-    font-size: 4.5vw;
+    font-size: 1.1rem;
     font-weight: 200;
     color: white;
     margin: 0 0;
@@ -1095,7 +1073,7 @@ h2.footer_horarios_title{
     box-sizing: border-box;
     padding: 0 0;
     margin: 0 0;
-    font-size:2.2vw;
+    font-size:1.1rem;
     font-weight: 200;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -1108,7 +1086,7 @@ h2.footer_social_title{
     margin: 0 0;
     grid-column: 1/2;
     grid-row: 1/2;
-    font-size: 4.2vw;
+    font-size: 1.2vw;
     font-weight: 200;
     text-align: center;
     color: white;
@@ -1137,12 +1115,12 @@ a.link_footer{
     height: 100%;
     width: 100%;
     text-align: center;
-    font-size: 3.8vw;
+    font-size: 1rem;
 }
 a.link_footer:hover{
     background-color: transparent;
     cursor: pointer;
-    font-size: 4vw;
+    font-size: 1.22rem;
     transition: font-size .5s ;
     padding-right: 5px;
 }
@@ -1155,7 +1133,6 @@ a.link_nav_footer:hover{
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 100;
-    transform: scale(1.5);
 }
 
 .footer_menu{
@@ -1170,7 +1147,7 @@ a.link_nav_footer:hover{
 h3.footer_menu_title{
     padding: 0 0;
     margin: 0 0;
-    font-size: 3.5vw;
+    font-size: .90rem;
     font-weight: 100;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
@@ -1231,27 +1208,5 @@ h3.footer_credits{
     margin: .3rem;
 
 }    
-        /*.Cabezera__menunavegacion{
-            color: antiquewhite;
-            text-align: center;
-            display: grid;
-            grid-template-columns: 2fr;
-            grid-template-rows: 1fr  1fr 1fr 1fr 1fr ;
-            }
-
-            .Cabezera__nav{
-                background-color: rgb(145, 0, 0);
-            }
-/*
-            .Main_section{
-                background-image: url("../imagenes/pizza.jpg");
-                background-size: cover;
-                width: 100%;
-                height: 20rem;
-                margin: 0 auto;
-                padding-top: 0%;
-                position: relative;
-            }
-            */
 
 }
