@@ -208,7 +208,7 @@ h2{
 
 .Main_section_box{
     position: static;
-    height: 220vh;
+    height: 150vh;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 3fr 2fr;
