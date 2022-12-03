@@ -1015,11 +1015,24 @@ h3.footer_credits{
     display: grid;
     grid-template-rows: 1fr;
 }
+.Simpletext{
+   
+    font-size: 3.5vw;
+    
+}
 
+.Main_content_face_img{
+    width: 19vw;
+    height: auto;
+}
 
-
-
-
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6vw;
+    text-shadow: 4rem;
+    color: aliceblue;
+    padding: 1rem .3rem 0rem 2rem;
+}
 
 
  /**-/////////////////////////////////////////////////////////////////////////////////
@@ -1051,7 +1064,7 @@ h3.footer_credits{
 }
 
 h2.footer_horarios_title{
-    font-size: 1.1rem;
+    font-size: 4vw;
     font-weight: 200;
     color: white;
     margin: 0 0;
@@ -1086,7 +1099,7 @@ h2.footer_social_title{
     margin: 0 0;
     grid-column: 1/2;
     grid-row: 1/2;
-    font-size: 1.2vw;
+    font-size: 3.2vw;
     font-weight: 200;
     text-align: center;
     color: white;

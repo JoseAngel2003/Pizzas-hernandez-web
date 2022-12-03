@@ -1268,186 +1268,9 @@ h3.footer_credits{
         font-weight: 400;
         opacity: 100%;
     }
-/*///////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////*
-.Main_section_2{
-    background-image: url(../imagenes/Pizza-mex.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 52rem;
-    width: 100%;
-    padding: 0 0;
-    margin: 0 0;
-    justify-content: center;
-    align-items: center;
-}
-
-.Main_section_2_ofertas{
-    display: grid;
-    grid-auto-flow: row;
-    width: 90%;
-    grid-gap: 1rem;
-    justify-content: center;
-    justify-items: center;
-    margin: 0 auto;
-    margin-top: 2rem;
-    grid-template-rows: 22% 22% 22% 22%;
-}
-
-/*.Main_section_2_ofertas{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    row-gap: 1rem;
-    justify-content: center;
-    justify-items: center;
-    margin: 0 auto;
-    margin-top: 2rem;
- 
-}
-.Main_section_2_oferta1,
-.Main_section_2_oferta2,
-.Main_section_2_oferta3{
-    height: 12rem;
-}*
-
-
-.Main_section_2{
-    box-sizing: border-box;
-    background-image: url(../imagenes/pizza-peperoni-2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:fit-content;
-    width: 100%;
-    padding: 0 0;
-    margin: 0 0;
-    justify-content: center;
-    align-items: center;
-}
-
-.Main_section_2_ofertas{
-    position:static;
-    display: grid;
-    grid-auto-flow: row;
-    width: 90%;
-    grid-gap: 1rem;
-    justify-content: center;
-    justify-items: center;
-    margin: 0 auto;
-    padding-top: .4rem;
-    padding-bottom: .4rem;
-    grid-template-rows: calc(1fr 1fr 1fr 1fr);
-}
-
-/*.Main_section_2_ofertas{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    row-gap: 1rem;
-    justify-content: center;
-    justify-items: center;
-    margin: 0 auto;
-    margin-top: 2rem;
- 
-}
-.Main_section_2_oferta1,
-.Main_section_2_oferta2,
-.Main_section_2_oferta3{
-    height: 12rem;
-}*/
-.Main_section_2_oferta1{
-    background-color: rgba(102, 102, 102);
-    border-radius: 1rem;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-
-}
-
-.Main_section_2_oferta2{
-
-    background-color: rgba(102, 102, 102);
-    border-radius: 1rem;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-
-
-}
-
-.Main_section_2_oferta3{
-
-    background-color: rgba(102, 102, 102);
-    border-radius: 1rem;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-
-}
-.Main_section_2_oferta4{
-
-    background-color: rgba(102, 102, 102);
-    border-radius: 1rem;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-
-}
-
-img.pizza_oferta1{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    padding: 0 0;
-    margin: 0 0;
-    border-radius: 1rem 0rem 0rem 1rem ;
-}
-
-.Main_section_2_oferta_imagen{
-    padding: 0;
-    margin: 0;
-    border-radius: 1rem 0rem 0rem 1rem ;
-}
-
-h2.pizza_oferta1_titulo{
-    text-align: center;
-    font-size: 2.2rem;
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke: .12rem rgb(0, 0, 0);
-  
-
-}
-
-h1.pizza_oferta_precio{
-    color: rgb(245, 62, 62);
-    font-size: 3.5rem;
-    margin: 0 0;
-    padding: 0 0;
-    color: rgb(230, 96, 34);
-    -webkit-text-stroke: .22rem rgb(0, 0, 0);
-
-}
-
-p.pizza_oferta1_texto{
-    text-align: center;
-    padding: 0 0;
-    margin: 0 0;
-    font-weight: 100;
-    font-size: 1.2rem;
-    color: rgb(255, 255, 255);
-    font-family: var(--kanitfuente);
-    letter-spacing: 10%;
-}
 
  /**-/////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////*/
-
 .footer_sections{
     height: 30rem;
     width: 100%;
@@ -1474,7 +1297,7 @@ p.pizza_oferta1_texto{
 }
 
 h2.footer_horarios_title{
-    font-size: 1.1rem;
+    font-size: 4vw;
     font-weight: 200;
     color: white;
     margin: 0 0;
@@ -1509,7 +1332,7 @@ h2.footer_social_title{
     margin: 0 0;
     grid-column: 1/2;
     grid-row: 1/2;
-    font-size: 1.2vw;
+    font-size: 3.2vw;
     font-weight: 200;
     text-align: center;
     color: white;
@@ -1630,28 +1453,6 @@ h3.footer_credits{
     color:white;
     margin: .3rem;
 
-}    
-        /*.Cabezera__menunavegacion{
-            color: antiquewhite;
-            text-align: center;
-            display: grid;
-            grid-template-columns: 2fr;
-            grid-template-rows: 1fr  1fr 1fr 1fr 1fr ;
-            }
-
-            .Cabezera__nav{
-                background-color: rgb(145, 0, 0);
-            }
-/*
-            .Main_section{
-                background-image: url("../imagenes/pizza.jpg");
-                background-size: cover;
-                width: 100%;
-                height: 20rem;
-                margin: 0 auto;
-                padding-top: 0%;
-                position: relative;
-            }
-            */
+} 
 
 }
